@@ -34,6 +34,7 @@ body {
     /* border: 1px solid red; */
 }
 #start_stop, #reset{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,13 +51,15 @@ body {
     color: darkred;
 }
 #time-left {
+    z-index: -10;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 
-    position: absolute;
-    top: 15vh;
+    /* position: absolute;
+    top: 15vh; */
 
     font-size: 70vh;
     /* border: 1px solid red; */
