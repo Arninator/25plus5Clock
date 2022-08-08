@@ -58,8 +58,8 @@ body {
     justify-content: flex-start;
     align-items: center;
 
-    /* position: absolute;
-    top: 15vh; */
+    position: absolute;
+    top: 15vh;
 
     font-size: 70vh;
     /* border: 1px solid red; */
