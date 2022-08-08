@@ -5,12 +5,12 @@ class Clock25 extends React.Component {
     render () {
         return(
             <div>
-                <div id="session-label">
+                <div id="session-label" class="controls">
                     <button id="session-decrement">&darr;</button>
                     <div id="session-length">25</div>
                     <button id="session-increment">&uarr;</button>
                 </div>
-                <div id="break-label">
+                <div id="break-label" class="controls">
                     <button id="break-decrement">&darr;</button>
                     <div id="break-length">5</div>
                     <button id="break-increment">&uarr;</button>

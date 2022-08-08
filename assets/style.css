@@ -3,3 +3,25 @@
     margin: 0;
     font-family: monospace;
 }
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+#timer-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100vw;
+    margin-top: 10vh;
+}
+#time-left {
+    position: absolute;
+    top: -10vh;
+
+    width: 100%;
+    font-size: 75vh;
+}
