@@ -62,7 +62,7 @@ class Clock25 extends React.Component {
                 document.getElementById("play-button").classList.replace("fa-pause", "fa-play");
                 currTime = 0;
             }
-        } else if (e.target.id == "reset") {
+        } else if (e.target.id == "reset" || e.target == "reset-button") {
             const buttons = document.getElementsByClassName("btn");
                 for (let i = 0; i < buttons.length; i++) {
                     buttons[i].disabled = false;
@@ -133,7 +133,7 @@ class Clock25 extends React.Component {
                     <div className="controls">
                         <button id="start_stop" onClick={this.handleClick}><i id="play-button" className="fa fa-play" onClick={this.handleClick}></i></button>
                         <div id="string-div">SESSION</div>
-                        <button id="reset" onClick={this.handleClick}><i className="fa fa-repeat"></i></button>
+                        <button id="reset" onClick={this.handleClick}><i id="reset-button" className="fa fa-repeat" onClick={this.handleClick}></i></button>
                     </div>
                     <div id="time-left">
                         25:00
